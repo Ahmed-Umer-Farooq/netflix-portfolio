@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Hero.css';
 import { Link } from 'react-router-dom';
+import heroBg from '../assets/hero-abstract-bg.jpg';
 
 const roles = [
   'MERN Stack Developer',
@@ -47,7 +48,7 @@ function Hero({ projects }) {
   }, []);
 
   return (
-    <div className="hero-container">
+    <div className="hero-container" style={{ backgroundImage: `url(${heroBg})` }}>
       <div className="hero-content">
         <h1 className="hero-name">Ahmed Umer Farooq</h1>
         
