@@ -3,7 +3,7 @@
 # This is the main build configuration
 [build]
   command = "npm run build"
-  publish = "dist"
+  publish = "build"
 
 # This is the redirect rule that fixes the "Page not found" error
 [[redirects]]

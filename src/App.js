@@ -5,7 +5,6 @@ import ProfileScreen from './components/ProfileScreen';
 import Portfolio from './pages/Portfolio';
 import AboutMe from './components/AboutMe';
 import ProjectsPage from './pages/ProjectsPage';
-import ResumePage from './pages/ResumePage';
 import CertificatesPage from './pages/CertificatesPage';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
@@ -29,7 +28,6 @@ function App() {
           <Route path="/about" element={<MainLayout><AboutMe /></MainLayout>} />
           <Route path="/projects" element={<MainLayout><ProjectsPage /></MainLayout>} />
           <Route path="/contact" element={<MainLayout><Contact /></MainLayout>} />
-          <Route path="/resume" element={<MainLayout><ResumePage /></MainLayout>} />
           <Route path="/certificates" element={<MainLayout><CertificatesPage /></MainLayout>} />
           {/* Redirect any other path to the home screen */}
           <Route path="*" element={<Navigate to="/" />} />
