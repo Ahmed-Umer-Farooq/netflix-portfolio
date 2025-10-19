@@ -1,0 +1,70 @@
+/* Add these styles to your existing Footer.css */
+
+.footer {
+  background: linear-gradient(180deg, rgba(20, 20, 20, 0.95) 0%, rgba(0, 0, 0, 0.98) 100%);
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 80px;
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-social-links a {
+  color: white;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+}
+
+.footer-social-links a:hover {
+  opacity: 1;
+  color: #36BCF7;
+  transform: translateY(-3px);
+}
+
+.footer-email {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: white;
+}
+
+.footer-email a {
+  color: #36BCF7;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: rgba(54, 188, 247, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(54, 188, 247, 0.3);
+  display: inline-block;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.footer-email a:hover {
+  background: rgba(54, 188, 247, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(54, 188, 247, 0.3);
+}
+
+.footer-copyright {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-social-links a {
+    font-size: 1.5rem;
+  }
+  
+  .footer-email {
+    font-size: 1rem;
+  }
+}

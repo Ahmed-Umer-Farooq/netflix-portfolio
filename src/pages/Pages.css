@@ -1,0 +1,12 @@
+.page-container {
+  padding: 120px 60px 60px; /* Top padding to be below the navbar */
+  color: white;
+  max-width: 1400px;
+  margin: 0 auto; /* Center the content */
+}
+
+.page-container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}

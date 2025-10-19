@@ -1,0 +1,60 @@
+{
+  "featured": [
+    {
+      "id": "p4",
+      "title": "Heart Disease Detection",
+      "description": "A web application built with Streamlit that uses a machine learning model to predict the likelihood of heart disease based on user-inputted medical data.",
+      "thumbnailUrl": "WILL_BE_REPLACED_BY_IMPORT",
+      "githubUrl": "https://github.com/Ahmed-Umer-Farooq/Heart-Disease-Detection",
+      "liveUrl": "https://heart-disease-detection-5ptndl9fxjdcgjd8wyznrl.streamlit.app/",
+      "tags": ["Machine Learning", "Streamlit", "Python"]
+    },
+    {
+      "id": "p5",
+      "title": "Drum Kit Web Scraper",
+      "description": "A powerful automation script using Selenium and Python to scrape data from a website, packaged as an executable for ease of use.",
+      "thumbnailUrl": "WILL_BE_REPLACED_BY_IMPORT",
+      "githubUrl": "https://github.com/Ahmed-Umer-Farooq/Drum_Scraper",
+      "liveUrl": "",
+      "tags": ["Selenium", "Python", "Automation"]
+    },
+    {
+      "id": "p6",
+      "title": "MERN Authentication App",
+      "description": "A full-stack MERN application focusing on modern user authentication, featuring JWT for security, user registration, login, and profile management.",
+      "thumbnailUrl": "WILL_BE_REPLACED_BY_IMPORT",
+      "githubUrl": "https://github.com/Ahmed-Umer-Farooq/mern-auth-app-",
+      "liveUrl": "https://mern-auth-app-2002.netlify.app/",
+      "tags": ["MERN Stack", "React", "Node.js", "MongoDB"]
+    }
+  ],
+  "library": [
+    {
+      "id": "p7",
+      "title": "Label Studio FEMA Processor",
+      "description": "A Python script for processing data with Label Studio, likely for machine learning or data annotation tasks.",
+      "thumbnailUrl": "CREATE_THUMBNAIL_FOR_THIS",
+      "githubUrl": "https://github.com/Ahmed-Umer-Farooq/label-studio-fema-processor",
+      "liveUrl": "",
+      "tags": ["Python", "Data Processing", "Machine Learning"]
+    },
+    {
+      "id": "p8",
+      "title": "Brainy Hearts App",
+      "description": "A fun app with a love calculator and an IQ test, built with JavaScript.",
+      "thumbnailUrl": "CREATE_THUMBNAIL_FOR_THIS",
+      "githubUrl": "https://github.com/Ahmed-Umer-Farooq/brainy-hearts-app",
+      "liveUrl": "",
+      "tags": ["JavaScript", "HTML/CSS", "Frontend"]
+    },
+    {
+      "id": "p9",
+      "title": "MLB Data Analysis",
+      "description": "A Python-based project likely involving data analysis or web scraping of Major League Baseball (MLB) statistics.",
+      "thumbnailUrl": "CREATE_THUMBNAIL_FOR_THIS",
+      "githubUrl": "https://github.com/Ahmed-Umer-Farooq/MLB",
+      "liveUrl": "",
+      "tags": ["Python", "Data Analysis", "Web Scraping"]
+    }
+  ]
+}

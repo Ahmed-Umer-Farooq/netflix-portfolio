@@ -1,0 +1,36 @@
+/* The container starts invisible and moved down */
+.carousel-container {
+  margin-bottom: 40px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* When the 'is-visible' class is added, it fades in and moves up */
+.carousel-container.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.carousel-title {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.carousel-thumbnails {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px 0 20px 5px;
+}
+
+/* Style for the scrollbar */
+.carousel-thumbnails::-webkit-scrollbar {
+  height: 8px;
+}
+.carousel-thumbnails::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 4px;
+}

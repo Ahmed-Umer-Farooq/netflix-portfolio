@@ -1,0 +1,80 @@
+.modal-overlay {
+  position: fixed; /* Stay in place even if you scroll */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it's on top of everything */
+}
+
+.modal-content {
+  background-color: #181818;
+  color: white;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto; /* Allow scrolling within the modal if content is long */
+  position: relative;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.modal-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Add this to the end of Modal.css */
+.modal-links {
+  margin-top: 30px;
+}
+
+.modal-link-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 15px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.modal-link-button:hover {
+  background-color: #444;
+}
+
+.modal-link-button.live {
+  background-color: #e50914; /* Netflix red */
+}
+
+.modal-link-button.live:hover {
+  background-color: #f6121d;
+}

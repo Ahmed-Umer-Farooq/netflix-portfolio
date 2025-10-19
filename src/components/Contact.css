@@ -1,0 +1,266 @@
+.contact-section {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0a0a0a 0%, #1a1a1a 100%);
+  padding: 100px 20px 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 60px;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.contact-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  background: linear-gradient(135deg, #e50914 0%, #36BCF7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.title-underline {
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #e50914 0%, #36BCF7 100%);
+  margin: 0 auto 20px;
+  border-radius: 2px;
+}
+
+.contact-subtitle {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 40px 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.email-card:hover {
+  border-color: #e50914;
+  box-shadow: 0 10px 40px rgba(229, 9, 20, 0.3);
+}
+
+.github-card:hover {
+  border-color: #36BCF7;
+  box-shadow: 0 10px 40px rgba(54, 188, 247, 0.3);
+}
+
+.linkedin-card:hover {
+  border-color: #0077b5;
+  box-shadow: 0 10px 40px rgba(0, 119, 181, 0.3);
+}
+
+.card-icon {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.email-card .card-icon {
+  color: #e50914;
+}
+
+.github-card .card-icon {
+  color: #36BCF7;
+}
+
+.linkedin-card .card-icon {
+  color: #0077b5;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 15px;
+}
+
+.card-action {
+  font-size: 0.9rem;
+  color: #36BCF7;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.contact-card:hover .card-action {
+  opacity: 1;
+}
+
+.contact-info-box {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 30px 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.info-icon {
+  font-size: 2rem;
+  color: #e50914;
+}
+
+.availability-indicator {
+  display: flex;
+  align-items: center;
+}
+
+.status-dot {
+  width: 12px;
+  height: 12px;
+  background: #22c55e;
+  border-radius: 50%;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+.info-item h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.info-item p {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+.download-resume-section {
+  text-align: center;
+  padding: 40px;
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.1) 0%, rgba(54, 188, 247, 0.1) 100%);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.download-resume-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.download-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 40px;
+  background: linear-gradient(135deg, #e50914 0%, #b20710 100%);
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.download-resume-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(229, 9, 20, 0.4);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .contact-title {
+    font-size: 2.5rem;
+  }
+
+  .contact-cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contact-info-box {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+}
