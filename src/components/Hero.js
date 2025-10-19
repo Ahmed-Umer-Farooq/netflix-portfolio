@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react';
 import './Hero.css';
 import { Link } from 'react-router-dom';
 
+const roles = [
+  'MERN Stack Developer',
+  'Selenium Automation Expert',
+  'Web Scraping Specialist',
+  'Full-Stack Engineer'
+];
+
 function Hero({ projects }) {
-  const roles = [
-    'MERN Stack Developer',
-    'Selenium Automation Expert',
-    'Web Scraping Specialist',
-    'Full-Stack Engineer'
-  ];
 
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [currentText, setCurrentText] = useState('');
@@ -35,7 +36,7 @@ function Hero({ projects }) {
     }
 
     return () => clearTimeout(timeout);
-  }, [currentText, isDeleting, currentRoleIndex, roles]);
+  }, [currentText, isDeleting, currentRoleIndex]);
 
   // Blinking cursor effect
   useEffect(() => {
