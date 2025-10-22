@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import './ProjectsPage.css';
+import '../styles/responsive.css';
 import Modal from '../components/Modal';
 import projectData from '../data/projects.json';
 
