@@ -1,3 +1,10 @@
+/* Force consistent sizing */
+.projects-page-container {
+  zoom: 1.0 !important;
+  transform: scale(1.0) !important;
+  font-size: 16px !important;
+}
+
 /* --- src/pages/ProjectsPage.css --- */
 
 .page-container {

@@ -1,19 +1,25 @@
-* {
+/* CSS Reset */
+*, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Force consistent base sizing */
 html {
-  font-size: 16px;
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  font-size: 16px !important;
+  -webkit-text-size-adjust: 100% !important;
+  -moz-text-size-adjust: 100% !important;
+  -ms-text-size-adjust: 100% !important;
   scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  zoom: 1.0;
 }
 
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -22,11 +28,21 @@ body {
   overflow-x: hidden;
   width: 100%;
   min-height: 100vh;
+  background-color: #141414;
+  color: #ffffff;
+  font-size: 16px !important;
+  zoom: 1.0;
+  -moz-transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  transform: scale(1.0);
 }
 
 #root {
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  zoom: 1.0;
 }
 
 code {
@@ -39,7 +55,7 @@ code {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  padding: clamp(80px, 10vh, 120px) clamp(20px, 5vw, 60px) clamp(40px, 5vh, 80px);
+  padding: 100px 60px 80px;
   min-height: 100vh;
 }
 
@@ -51,39 +67,64 @@ code {
 
 /* Section spacing */
 .section {
-  margin-bottom: clamp(40px, 6vh, 80px);
+  margin-bottom: 60px;
 }
 
 .section-title {
-  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-size: 2.5rem;
   font-weight: 700;
-  margin-bottom: clamp(20px, 3vh, 40px);
+  margin-bottom: 30px;
   color: #ffffff;
 }
 
 .section-subtitle {
-  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: clamp(15px, 2vh, 25px);
+  margin-bottom: 20px;
   color: #e5e5e5;
 }
 
 /* Cards and content boxes */
 .content-card {
   background: rgba(30, 30, 30, 0.8);
-  border-radius: clamp(8px, 1vw, 12px);
-  padding: clamp(20px, 3vw, 40px);
-  margin-bottom: clamp(20px, 2vh, 30px);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 25px;
 }
 
 /* Responsive text */
 .text-body {
-  font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+  font-size: 1.05rem;
   line-height: 1.6;
   color: #e5e5e5;
 }
 
 .text-small {
-  font-size: clamp(0.85rem, 1.5vw, 0.95rem);
+  font-size: 0.9rem;
   color: #b3b3b3;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 80px 25px 50px;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-container {
+    padding: 70px 20px 40px;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
 }

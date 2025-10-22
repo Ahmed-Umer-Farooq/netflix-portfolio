@@ -57,13 +57,14 @@ function ProjectsPage() {
 
   return (
     <>
-      <div className="page-container">
-        <div className="page-content">
-          <header className="page-header">
-            <h1 className="section-title">All Projects</h1>
-            <p className="section-subtitle">
-              A collection of my work, from full-stack web applications to machine learning models and automation scripts.
-            </p>
+      <div className="projects-page-container">
+        <div className="page-container">
+          <div className="page-content">
+            <header className="page-header">
+              <h1 className="section-title">All Projects</h1>
+              <p className="section-subtitle">
+                A collection of my work, from full-stack web applications to machine learning models and automation scripts.
+              </p>
           </header>
 
           <section className="featured-section section">
@@ -79,6 +80,7 @@ function ProjectsPage() {
               {allLibraryProjects.map(renderProjectCard)}
             </div>
           </section>
+          </div>
         </div>
       </div>
 
