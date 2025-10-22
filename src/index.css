@@ -33,3 +33,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Global page containers */
+.page-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: clamp(80px, 10vh, 120px) clamp(20px, 5vw, 60px) clamp(40px, 5vh, 80px);
+  min-height: 100vh;
+}
+
+.page-content {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Section spacing */
+.section {
+  margin-bottom: clamp(40px, 6vh, 80px);
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 700;
+  margin-bottom: clamp(20px, 3vh, 40px);
+  color: #ffffff;
+}
+
+.section-subtitle {
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  font-weight: 600;
+  margin-bottom: clamp(15px, 2vh, 25px);
+  color: #e5e5e5;
+}
+
+/* Cards and content boxes */
+.content-card {
+  background: rgba(30, 30, 30, 0.8);
+  border-radius: clamp(8px, 1vw, 12px);
+  padding: clamp(20px, 3vw, 40px);
+  margin-bottom: clamp(20px, 2vh, 30px);
+}
+
+/* Responsive text */
+.text-body {
+  font-size: clamp(0.95rem, 1.8vw, 1.1rem);
+  line-height: 1.6;
+  color: #e5e5e5;
+}
+
+.text-small {
+  font-size: clamp(0.85rem, 1.5vw, 0.95rem);
+  color: #b3b3b3;
+}

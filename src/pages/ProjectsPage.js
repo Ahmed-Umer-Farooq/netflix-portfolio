@@ -58,26 +58,28 @@ function ProjectsPage() {
   return (
     <>
       <div className="page-container">
-        <header className="page-header">
-          <h1 className="page-title">All Projects</h1>
-          <p className="page-subtitle">
-            A collection of my work, from full-stack web applications to machine learning models and automation scripts.
-          </p>
-        </header>
+        <div className="page-content">
+          <header className="page-header">
+            <h1 className="section-title">All Projects</h1>
+            <p className="section-subtitle">
+              A collection of my work, from full-stack web applications to machine learning models and automation scripts.
+            </p>
+          </header>
 
-        <section className="featured-section">
-          <h2 className="section-title">Featured Premieres</h2>
-          <div className="projects-grid featured-grid">
-            {allFeaturedProjects.map(renderProjectCard)}
-          </div>
-        </section>
+          <section className="featured-section section">
+            <h2 className="section-title">Featured Premieres</h2>
+            <div className="projects-grid featured-grid">
+              {allFeaturedProjects.map(renderProjectCard)}
+            </div>
+          </section>
 
-        <section className="library-section">
-          <h2 className="section-title">Project Library</h2>
-          <div className="projects-grid library-grid">
-            {allLibraryProjects.map(renderProjectCard)}
-          </div>
-        </section>
+          <section className="library-section section">
+            <h2 className="section-title">Project Library</h2>
+            <div className="projects-grid library-grid">
+              {allLibraryProjects.map(renderProjectCard)}
+            </div>
+          </section>
+        </div>
       </div>
 
       <Modal project={selectedProject} onClose={handleCloseModal} />
