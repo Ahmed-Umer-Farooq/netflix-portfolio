@@ -21,6 +21,7 @@
   z-index: 10;
   position: relative;
   margin-bottom: 30px;
+  color: white !important;
 }
 
 .hero-name {
@@ -29,8 +30,10 @@
   letter-spacing: -2px;
   margin: 0 0 15px 0;
   text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
-  color: white;
+  color: white !important;
   line-height: 1.2;
+  display: block;
+  visibility: visible;
 }
 
 .hero-title {
