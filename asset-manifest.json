@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/netflix-portfolio/static/css/main.1d5dd061.css",
+    "main.js": "/netflix-portfolio/static/js/main.a05fd70d.js",
+    "static/js/453.f313ca53.chunk.js": "/netflix-portfolio/static/js/453.f313ca53.chunk.js",
+    "static/media/billboard-bg.gif": "/netflix-portfolio/static/media/billboard-bg.15dcff6f3fde997a3b2f.gif",
+    "static/media/automation-scraper.gif": "/netflix-portfolio/static/media/automation-scraper.2734c54d74a58c0ff0c5.gif",
+    "static/media/MLB.png": "/netflix-portfolio/static/media/MLB.df97541fb30267e4a049.png",
+    "static/media/Brainy.png": "/netflix-portfolio/static/media/Brainy.786650bb63d07790ed24.png",
+    "static/media/FEMA.png": "/netflix-portfolio/static/media/FEMA.519d99d1c86ad56816be.png",
+    "static/media/mern-auth.gif": "/netflix-portfolio/static/media/mern-auth.24bef16a8297b6c004a8.gif",
+    "static/media/hero-abstract-bg.jpg": "/netflix-portfolio/static/media/hero-abstract-bg.d6c8e73866df6d2dd862.jpg",
+    "static/media/Luffy.jpg": "/netflix-portfolio/static/media/Luffy.c6b7b3b099cda3844cf0.jpg",
+    "static/media/Sanji.jpg": "/netflix-portfolio/static/media/Sanji.c8f963efc2e4dfe29cdc.jpg",
+    "static/media/Zoro.jpg": "/netflix-portfolio/static/media/Zoro.11b037b471e4d1a29458.jpg",
+    "static/media/profile-pic.jpg": "/netflix-portfolio/static/media/profile-pic.13a3506bf787b884920a.jpg",
+    "index.html": "/netflix-portfolio/index.html",
+    "main.1d5dd061.css.map": "/netflix-portfolio/static/css/main.1d5dd061.css.map",
+    "main.a05fd70d.js.map": "/netflix-portfolio/static/js/main.a05fd70d.js.map",
+    "453.f313ca53.chunk.js.map": "/netflix-portfolio/static/js/453.f313ca53.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d5dd061.css",
+    "static/js/main.a05fd70d.js"
+  ]
+}
