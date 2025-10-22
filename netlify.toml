@@ -1,11 +1,7 @@
-# --- netlify.toml ---
-
-# This is the main build configuration
 [build]
   command = "npm run build"
   publish = "build"
 
-# This is the redirect rule that fixes the "Page not found" error
 [[redirects]]
   from = "/*"
   to = "/index.html"
